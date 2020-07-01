@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation.xml"
+    app:startDestination="@id/citiesFragment">
+
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="by.afanasyeu.weatherapp.fragment.CitiesFragment"
+        android:label="fragment_cities"
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_citiesFragment_to_addCityFragment"
+            app:destination="@id/addCityFragment" />
+        <action
+            android:id="@+id/action_citiesFragment_to_detailedFragment"
+            app:destination="@id/detailedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCityFragment"
+        android:name="by.afanasyeu.weatherapp.fragment.AddCityFragment"
+        android:label="fragment_add_city"
+        tools:layout="@layout/fragment_add_city" />
+    <fragment
+        android:id="@+id/detailedFragment"
+        android:name="by.afanasyeu.weatherapp.fragment.DetailedFragment"
+        android:label="fragment_detailed"
+        tools:layout="@layout/fragment_detailed"
+        >
+        <argument
+            android:name="cityId"
+            app:argType="long" />
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+    </fragment>
+</navigation>

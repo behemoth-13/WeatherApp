@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="title_cities">Города</string>
+    <string name="title_add_city">Добавить город</string>
+    <string name="msg_no_internet">Отсутствует интернет</string>
+    <string name="msg_default_error">Произошла ошибка</string>
+    <string name="error_no_match">Нет соответствия</string>
+
+    <string name="tab_city">Инфо</string>
+    <string name="tab_3days">3 дня</string>
+    <string name="tab_week">Неделя</string>
+
+    <string name="feels_like">Ощущается как:</string>
+    <string name="detailed_info">Очень подробная информация</string>
+    <string name="degrees">%1$s °C</string>
+
+</resources>

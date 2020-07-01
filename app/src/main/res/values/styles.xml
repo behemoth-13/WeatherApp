@@ -1,0 +1,11 @@
+<resources>
+    <style name="Widget.WeatherApp.TextInputLayout.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/input_layout_border_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/input_layout_border_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/input_layout_border_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/input_layout_border_radius</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+    </style>
+
+</resources>
